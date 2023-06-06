@@ -1,6 +1,37 @@
 /* Your code here */
+.pf {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
+.wgs {
+  display: inline-block;
+  height: 241px;
+  position: relative;
+  width: 320px;
+  overflow: hidden;
+}
 
+.wgs__mole-head {
+  height: ;
+  position: absolute;
+  width: 188px;
+  left: 54.5px;
+  transition-property: margin-top;
+  transition-duration: 0.25s;
+}
+
+.wgs__dirt-pile {
+  height: ;
+  position: absolute;
+  width: 320px;
+  top: 131px;
+}
+
+.wgs__mole-head--hidden {
+  margin-top: 241px;
+}
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
 /* .sb {
